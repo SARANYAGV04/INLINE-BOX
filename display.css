@@ -1,0 +1,38 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+h1,h2{
+    color:green;
+}
+.block li{
+    display: block;
+    background-color: blue;
+    margin: 50px 0;
+    padding: 20px;
+    border:2px solid red;
+}
+.inline{
+    list-style-type: none;
+    padding: 0;
+}
+.inline li {
+    display: inline;
+    background-color: aqua;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid red;
+}
+.inline-block{
+    list-style-type: none;
+    padding:0;
+}
+.inline-block li{
+    display: inline-block;
+    background-color:grey;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid orangered;
+    height:"20px";
+     width:"30px";
+}
